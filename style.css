@@ -135,7 +135,7 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 4rem 0 2rem 9rem;
+  padding: 4rem 2rem;
 }
 .hero-text {
   width: 38%;
@@ -259,6 +259,11 @@ main {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+@media (min-width: 993px) {
+  .hero {
+    padding: 4rem 0 2rem 9rem;
+  }
 }
 @media (max-width: 992px) {
   .hero {

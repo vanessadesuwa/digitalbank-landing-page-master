@@ -34,7 +34,7 @@ _I'll add a screenshot soon!_
 ### Links
 
 - Solution URL: _I'll add this soon_
-- Live Site URL: _I'll add this soon_
+- Live Site URL: https://vanessadesuwa.github.io/digitalbank-landing-page-master/
 
 ## My process
 
@@ -91,7 +91,7 @@ _I'll add a screenshot soon!_
 ## Author
 
 - My name is Vanessa Omoragbon
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@vanessadesuwa](https://www.frontendmentor.io/profile/vanessadesuwa)
 
 ## Acknowledgments
 
