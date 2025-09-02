@@ -47,8 +47,6 @@ _I'll add a screenshot soon!_
 
 ### What I learned
 
-### What I learned
-
 #### My progress and solutions
 
 - **HTML structure:** I used semantic tags like `<header>`, `<main>`, `<section>`, and `<footer>`. My navigation is split into desktop and mobile menus for responsiveness. I added an overlay `<div>` for mobile menu effects.
@@ -80,13 +78,9 @@ _I'll add a screenshot soon!_
 
 ### Continued development
 
-### Continued development
-
 - I want to improve accessibility (keyboard navigation, ARIA labels)
 - I plan to add animations for menu transitions
 - I will refactor my CSS for better maintainability
-
-### Useful resources
 
 ### Useful resources
 
@@ -96,12 +90,8 @@ _I'll add a screenshot soon!_
 
 ## Author
 
-## Author
-
 - My name is Vanessa Omoragbon
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-
-## Acknowledgments
 
 ## Acknowledgments
 
