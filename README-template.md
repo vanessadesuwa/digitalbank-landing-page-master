@@ -1,6 +1,6 @@
 # Frontend Mentor - Digitalbank landing page solution
 
-This is a solution to the [Digitalbank landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/digital-bank-landing-page-WaUhkoDN). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is my solution to the [Digitalbank landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/digital-bank-landing-page-WaUhkoDN). Frontend Mentor challenges help me improve my coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -22,27 +22,19 @@ This is a solution to the [Digitalbank landing page challenge on Frontend Mentor
 
 ### The challenge
 
-Users should be able to:
+I wanted users to be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+_I'll add a screenshot soon!_
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: _I'll add this soon_
+- Live Site URL: _I'll add this soon_
 
 ## My process
 
@@ -51,63 +43,66 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+### What I learned
 
-To see how you can add code snippets, see below:
+#### My progress and solutions
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+- **HTML structure:** I used semantic tags like `<header>`, `<main>`, `<section>`, and `<footer>`. My navigation is split into desktop and mobile menus for responsiveness. I added an overlay `<div>` for mobile menu effects.
 
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
+- **CSS layout:** I built a responsive layout using Flexbox and custom properties for colors and spacing. My media queries adjust padding, widths, and flex direction for different screen sizes. I cleaned up and optimized all media queries for a consistent mobile and desktop experience.
 
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉');
-};
-```
+- **Button gradient:** I implemented gradient backgrounds for my buttons using `background: linear-gradient(120deg, hsl(192, 70%, 51%), hsl(136, 64%, 51%));`.
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+- **Flexbox challenges:** I fixed shifting and stacking issues by setting proper widths and flex-basis for `.feature` and `.features-list`. I made sure my `.hero` children are side by side with `display: flex; flex-direction: row;` and percentage widths.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+- **Mockup image overlap:** I achieved overlap of the mockup image onto the `.features` section using negative margin and `z-index`.
+
+- **Mobile menu:** I made the mobile menu background visible and centered by adjusting background color, max-width, and margin. I used media queries to toggle visibility and layout.
+
+- **Overlay effect:** I added an `.overlay` div to dim the rest of the content when the mobile menu is open. I toggle its `.active` class with JavaScript for a smooth user experience.
+
+- **Preventing scroll:** I disabled page scroll when the mobile menu is open by toggling a `.no-scroll` class on `<body>` and setting `overflow: hidden;` in CSS.
+
+- **Spacing issues:** I fixed weird left space at certain breakpoints by reviewing and cleaning up media queries, making sure my containers use `width: 100%`, `margin: 0 auto`, and equal left/right padding.
+
+- **Questions I asked and solved:**
+  - How do I make a button gradient in CSS?
+  - How do I fix flexbox element shifting?
+  - How do I keep `.hero` children side by side?
+  - How do I crop and position images for overlap?
+  - How do I center and style the mobile menu?
+  - How do I add an overlay and prevent scroll when the menu is open?
+  - How do I fix layout and spacing issues at different breakpoints?
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+### Continued development
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+- I want to improve accessibility (keyboard navigation, ARIA labels)
+- I plan to add animations for menu transitions
+- I will refactor my CSS for better maintainability
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+### Useful resources
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [MDN Web Docs](https://developer.mozilla.org/) - My go-to reference for HTML, CSS, and JavaScript.
+- [CSS Tricks](https://css-tricks.com/) - Helped me with Flexbox and responsive design tips.
+- [Frontend Mentor Community](https://www.frontendmentor.io/community) - I asked questions and got feedback here.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+## Author
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- My name is Vanessa Omoragbon
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+## Acknowledgments
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Thanks to Frontend Mentor and the community for feedback and support. Special thanks to GitHub Copilot for helping me solve tricky layout and CSS issues as I built this project.
