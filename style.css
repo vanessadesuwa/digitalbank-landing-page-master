@@ -7,6 +7,7 @@
 }
 .no-scroll {
   overflow: hidden;
+  height: 100vh;
 }
 
 .header {
@@ -65,17 +66,23 @@
   color: hsl(0, 0%, 26%);
 }
 .menu-icon {
-  width: fit-content;
-  display: none;
+  width: 2rem;
   cursor: pointer;
+}
+.hamburger-icon {
+  display: block;
+  color: rgb(115, 115, 116);
+}
+.close-icon {
+  display: none;
+  color: rgb(115, 115, 116);
 }
 .mobile-menu {
   position: absolute;
   top: 100%;
   left: 0;
   right: 0;
-  width: 100%;
-  max-width: 90vw;
+  width: 90%;
   list-style: none;
   background-color: hsl(0, 0%, 100%);
   display: none;
@@ -90,10 +97,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.header-btn {
-  width: fit-content;
-  height: auto;
 }
 .btn {
   background: linear-gradient(120deg, hsl(192, 70%, 51%), hsl(136, 64%, 51%));
@@ -135,7 +138,7 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 4rem 2rem;
+  padding: 4rem 0 2rem 9rem;
 }
 .hero-text {
   width: 38%;
@@ -174,6 +177,15 @@ main {
   height: auto;
   object-fit: cover;
   object-position: right;
+}
+.logo img,
+.mock-up img,
+.f-img img {
+  user-select: none;
+  -webkit-user-drag: none;
+}
+.article img {
+  -webkit-user-drag: none;
 }
 .features {
   background-color: hsl(220, 16%, 96%);
@@ -260,11 +272,6 @@ main {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-@media (min-width: 993px) {
-  .hero {
-    padding: 4rem 0 2rem 9rem;
-  }
-}
 @media (max-width: 992px) {
   .hero {
     padding: 2rem 0 2rem 2rem;
@@ -286,8 +293,15 @@ main {
   .hero-text {
     width: 50%;
   }
+  .mock-up {
+    width: 50%;
+  }
 }
 @media (max-width: 768px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
   .hero {
     padding: 2rem 0 2rem 2rem;
   }
@@ -306,9 +320,8 @@ main {
   .desktop-menu i {
     display: block;
   }
-  .menu-icon {
+  .hamburger-icon {
     display: block;
-    cursor: pointer;
   }
   .header-btn {
     display: none;
