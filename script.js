@@ -1,26 +1,29 @@
+// Select elements
 const hamburgerIcon = document.querySelector(".hamburger-icon");
 const closeIcon = document.querySelector(".close-icon");
 const mobileMenu = document.querySelector(".mobile-menu");
 const overlay = document.querySelector(".overlay");
 
-// Open menu and show overlay
+// Open menu
 function openMenu() {
-  hamburgerIcon.style.display = "none";
-  closeIcon.style.display = "block";
+  hamburgerIcon.classList.add("active");
+  closeIcon.classList.add("active");
   mobileMenu.classList.add("active");
   overlay.classList.add("active");
   document.body.classList.add("no-scroll");
 }
-// Close menu and hide overlay
+
+// Close menu
 function closeMenu(e) {
-  if (e) e.stopPropagation();
-  mobileMenu.style.display = "none";
+  if (e) e.stopPropagation(); // prevents bubbling when clicking close icon
+  hamburgerIcon.classList.remove("active");
+  closeIcon.classList.remove("active");
+  mobileMenu.classList.remove("active");
   overlay.classList.remove("active");
   document.body.classList.remove("no-scroll");
-  hamburgerIcon.style.display = "block";
-  closeIcon.style.display = "none";
 }
-// menuIcon.addEventListener("click", openMenu);
+
+// Event listeners
 hamburgerIcon.addEventListener("click", openMenu);
 closeIcon.addEventListener("click", closeMenu);
 overlay.addEventListener("click", closeMenu);

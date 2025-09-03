@@ -69,12 +69,8 @@
   width: 2rem;
   cursor: pointer;
 }
+.close-icon,
 .hamburger-icon {
-  display: block;
-  color: rgb(115, 115, 116);
-}
-.close-icon {
-  display: none;
   color: rgb(115, 115, 116);
 }
 .mobile-menu {
@@ -85,7 +81,6 @@
   width: 90%;
   list-style: none;
   background-color: hsl(0, 0%, 100%);
-  display: none;
   padding: 2rem;
   z-index: 99;
   row-gap: 1.5rem;
@@ -125,9 +120,15 @@ main {
   bottom: 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
   z-index: 98;
+}
+.hamburger-icon,
+.close-icon,
+.mobile-menu,
+.overlay {
   display: none;
 }
-.overlay.active {
+.overlay.active,
+.close-icon.active {
   display: block;
 }
 .hero {
@@ -322,6 +323,9 @@ main {
   }
   .hamburger-icon {
     display: block;
+  }
+  .hamburger-icon.active {
+    display: none;
   }
   .header-btn {
     display: none;
