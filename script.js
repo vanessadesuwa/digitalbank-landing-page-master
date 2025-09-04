@@ -5,7 +5,8 @@ const mobileMenu = document.querySelector(".mobile-menu");
 const overlay = document.querySelector(".overlay");
 
 // Open menu
-function openMenu() {
+function openMenu(e) {
+  if (e) e.stopPropagation(); // prevents bubbling when clicking hamburger icon
   hamburgerIcon.classList.add("active");
   closeIcon.classList.add("active");
   mobileMenu.classList.add("active");
