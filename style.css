@@ -668,7 +668,7 @@ main {
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    margin-left: -1.5rem;
+    /* margin-left: -1.5rem; */
     margin-bottom: -1rem;
   }
   .mock-up img {
