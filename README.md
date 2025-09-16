@@ -16,8 +16,6 @@ This is my solution to the [Digitalbank landing page challenge on Frontend Mento
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -37,7 +35,7 @@ I wanted users to be able to:
 
 ### Links
 
-- Solution URL: _I'll add this soon_
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-digitalbank-landing-page-built-with-html-css-javascript-2CpdOj9v_Z)
 - Live Site URL: https://vanessadesuwa.github.io/digitalbank-landing-page-master/
 
 ## My process
